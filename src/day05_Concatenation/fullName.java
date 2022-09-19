@@ -18,6 +18,8 @@ public class fullName {
         // ___is ___ years old.
         System.out.println(fullName + " is " + age + " years old.");
         // fullname is jobTitle, works at companyName and fullname salary is salary.
-        System.out.println(fullName + " is " + jobTitle + ", " + " works at " + companyName );
+        System.out.println(fullName + " is " + jobTitle + ", "
+                +" works at " + companyName + ", and " +fullName +
+                "'s salary$" + salary);
     }
 }
