@@ -28,5 +28,27 @@ public class GradeReport {
         }else {
             System.out.println("Invalid"); // ıf the score is not valid
         }
+        System.out.println("---------------------------");
+
+        String result= ""; // temproray
+
+        if (score >= 0 && score <= 100){ // if the score is valid
+
+            if (score >= 90){ // false if score< 90
+                 result= "excellent";
+            } else if (score >= 80) { // false if score <80
+                result="Great";
+            } else if (score >= 70) {// false if score < 70
+               result="Good";
+            } else if (score >= 60) { // fase if score < 60
+               result="Passed";
+            }else {
+               result="Failed";
+            }
+        }else {
+            result="Invalid"; // ıf the score is not valid
+        }
+        System.out.println("result");
+
     }
 }
