@@ -42,7 +42,7 @@ public class TernariesIntro {
         }
           */
 
-       String result3 =(number>0)? "Possitive" :? (number<0) "Negative" : "Zero";
+       String result3 =(number>0)? "Possitive" :(number<0)? "Negative" : "Zero";
         System.out.println(result3);
 
     }
