@@ -12,6 +12,10 @@ public class StringMethod4 {
         System.out.println(s2);
 
         System.out.println("----------------------------");
-        System.out.println("FADY\n".repeat(15));
+
+        String name="Java";
+       // System.out.println("FADY\n".repeat(15));
+
+        System.out.println((name+ " ").repeat(5));
     }
 }
