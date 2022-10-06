@@ -2,7 +2,7 @@ package day09_IfStatements;
 
 public class NameOfDay {
     public static void main(String[] args) {
-        int n=6; //1 ~ 7
+        int n=7; //1 ~ 7
         if (n == 1){
             System.out.println("Monday");
         } else if (n == 2) {
@@ -15,7 +15,7 @@ public class NameOfDay {
             System.out.println("Friday");
         } else if (n == 6) {
             System.out.println("Saturday");
-        } else {
+        } else{
             System.out.println("Sunday");
         }
         System.out.println("----------------------------");
@@ -39,8 +39,12 @@ public class NameOfDay {
         }
         System.out.println("day = " + day);
 
+
     }
+
     }
+
+
 
 
 
