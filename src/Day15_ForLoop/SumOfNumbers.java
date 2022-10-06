@@ -2,7 +2,7 @@ package Day15_ForLoop;
 
 import java.util.Scanner;
 
-public class SameOfNumbers {
+public class SumOfNumbers {
     public static void main(String[] args) {
         double sum=0;
         //1+2+3+....+100
