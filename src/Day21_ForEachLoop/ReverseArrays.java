@@ -2,7 +2,7 @@ package Day21_ForEachLoop;
 
 import java.util.Arrays;
 
-public class ReverseArrays {
+public class    ReverseArrays {
     public static void main(String[] args) {
 
         int[] numbers = {10, 20, 30, 40};
