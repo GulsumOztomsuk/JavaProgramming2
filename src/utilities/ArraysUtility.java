@@ -222,4 +222,139 @@ public class ArraysUtility {
     }
 
 
+    //removes the index from the array, returns new array
+    public static int[] removeElements(int[] array,int index){
+
+        if (index<0 || index> array.length-1){
+            System.err.println("Invalid Index "+ index);
+            System.exit(0);
+        }
+        int[] result=new int[array.length-1];
+        int j=0;
+        for(int i = 0; i < array.length; i++){
+            if (i == index){//if the index of array is matching with the given index
+                continue;//skip
+            }
+            result[j++]=array[i];
+        }
+        return result;
+    }
+
+    //removes the index from the array, returns new array
+    public static double[] removeElements(double[] array,int index){
+
+        if (index<0 || index> array.length-1){
+            System.err.println("Invalid Index "+ index);
+            System.exit(0);
+        }
+        double[] result=new double[array.length-1];
+        int j=0;
+        for(int i = 0; i < array.length; i++){
+            if (i == index){//if the index of array is matching with the given index
+                continue;//skip
+            }
+            result[j++]=array[i];
+        }
+        return result;
+    }
+
+    //removes the index from the array, returns new array
+    public static char[] removeElements(char[] array,int index){
+
+        if (index<0 || index> array.length-1){
+            System.err.println("Invalid Index "+ index);
+            System.exit(0);
+        }
+        char[] result=new char[array.length-1];
+        int j=0;
+        for(int i = 0; i < array.length; i++){
+            if (i == index){//if the index of array is matching with the given index
+                continue;//skip
+            }
+            result[j++]=array[i];
+        }
+        return result;
+    }
+
+    //removes the index from the array, returns new array
+    public static String[] removeElements(String[] array,int index){
+
+        if (index<0 || index> array.length-1){
+            System.err.println("Invalid Index "+ index);
+            System.exit(0);
+        }
+        String[] result=new String[array.length-1];
+        int j=0;
+        for(int i = 0; i < array.length; i++){
+            if (i == index){//if the index of array is matching with the given index
+                continue;//skip
+            }
+            result[j++]=array[i];
+        }
+        return result;
+    }
+
+    //merge the given from to array, returns new array
+    public static int[] merge(int[] arr1, int[] arr2){
+        int[] result=new int[arr1.length+ arr2.length];
+        //int[] result={};
+        for (int each:arr1) {
+            result=addElement(result, each);
+        }
+        for (int each:arr2) {
+            result=addElement(result, each);
+        }
+        return result;
+    }
+
+    // merge the given two arrays and returns the new array
+    public static double[] merge(double[] arr1, double[] arr2){
+
+        double[] result = {};
+
+        for (double each : arr1) {
+            result = ArraysUtility.addElement(result, each);
+        }
+
+        for (double each : arr2) {
+            result = ArraysUtility.addElement(result, each);
+        }
+
+        return result;
+    }
+
+
+    // merge the given two arrays and returns the new array
+    public static char[] merge(char[] arr1, char[] arr2){
+
+        char[] result = {};
+
+        for (char each : arr1) {
+            result = ArraysUtility.addElement(result, each);
+        }
+
+        for (char each : arr2) {
+            result = ArraysUtility.addElement(result, each);
+        }
+
+        return result;
+    }
+
+
+    // merge the given two arrays and returns the new array
+    public static String[] merge(String[] arr1, String[] arr2) {
+
+        String[] result = {};
+
+        for (String each : arr1) {
+            result = ArraysUtility.addElement(result, each);
+        }
+
+        for (String each : arr2) {
+            result = ArraysUtility.addElement(result, each);
+        }
+
+        return result;
+
+    }
 }
