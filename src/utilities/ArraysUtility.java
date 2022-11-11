@@ -135,4 +135,91 @@ public class ArraysUtility {
 
     }
 
+
+    //returns the frequency of the given element from the given array
+    public static int frequencyOfElement(int[] array, int element){
+        int count=0;
+        for (int each:array){
+            if (each==element){
+                count++;
+            }
+        }
+        return count;
+    }
+    //returns the frequency of the given element from the given array
+    public static int frequencyOfElement(double[] array, double element){
+        int count=0;
+        for (double each:array){
+            if (each==element){
+                count++;
+            }
+        }
+        return count;
+    }
+    //returns the frequency of the given element from the given array
+    public static int frequencyOfElement(char[] array, char element){
+        int count=0;
+        for (char each:array){
+            if (each==element){
+                count++;
+            }
+        }
+        return count;
+    }
+    //returns the frequency of the given element from the given array
+    public static int frequencyOfElement(String[] array, String element){
+        int count=0;
+        for (String each:array){
+            if (each.equals(element)){
+                count++;
+            }
+        }
+        return count;
+    }
+
+    //returns the uniqu element of the array as a new array
+    public static int[] uniqueElements(int[] array){
+        int[] result={};
+        for (int each:array){
+            if (ArraysUtility.frequencyOfElement(array,each)==1){
+                result= ArraysUtility.addElement(result, each);
+            }
+        }
+        return result;
+    }
+
+    //returns the uniqu element of the array as a new array
+    public static double[] uniqueElements(double[] array){
+        double[] result={};//new int[0]
+        for (double each:array){
+            if (ArraysUtility.frequencyOfElement(array,each)==1){ //if the frequency is 1 the element is unique
+                result= ArraysUtility.addElement(result, each);
+            }
+        }
+        return result;
+    }
+
+    //returns the uniqu element of the array as a new array
+    public static char[] uniqueElements(char[] array){
+        char[] result={};
+        for (char each:array){
+            if (ArraysUtility.frequencyOfElement(array,each)==1){
+                result= ArraysUtility.addElement(result, each);
+            }
+        }
+        return result;
+    }
+
+    //returns the uniqu element of the array as a new array
+    public static String[] uniqueElements(String[] array){
+        String[] result={};
+        for (String each:array){
+            if (ArraysUtility.frequencyOfElement(array,each)==1){
+                result= ArraysUtility.addElement(result, each);
+            }
+        }
+        return result;
+    }
+
+
 }
