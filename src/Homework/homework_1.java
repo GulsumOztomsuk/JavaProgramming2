@@ -1,23 +1,35 @@
 package Homework;
 
 public class homework_1 {
-    public static void main(String[] args) {
-        String OS="Mac";
+    public static void main(String[] args) {//
+        String OS = "Mac";
 
 
-        if(OS=="Mac"){
+        if (OS == "Mac") {
             System.out.println("MacOS");
-        }else if (OS=="Lenova") {
+        } else if (OS == "Lenova") {
             System.out.println("Windows");
-        } else if (OS=="Iphone") {
+        } else if (OS == "Iphone") {
             System.out.println("IOS");
-        } else if (OS=="Samsung") {
+        } else if (OS == "Samsung") {
             System.out.println("Android");
         }
 
+
+
+
+
+            }
         }
 
-    }
+
+
+
+
+
+
+
+
 
 
 
