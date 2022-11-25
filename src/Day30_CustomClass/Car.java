@@ -8,6 +8,8 @@ public class Car {
     int year;
     double price;
 
+
+
     public void setInfo(String carBrand,String carModel,String carColor,int carYear, double carPrice){
         brand=carBrand;
         model=carModel;
