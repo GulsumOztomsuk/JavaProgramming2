@@ -2,7 +2,7 @@ package Day35_Encapsulation;
 
 public class Person {
 
-    public String name;   //instance ariable
+    public String name;   //instance variable
     public int age;
     public char gender;
     public String language;
