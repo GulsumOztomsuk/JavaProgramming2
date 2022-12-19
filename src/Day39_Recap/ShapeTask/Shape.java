@@ -34,7 +34,7 @@ public class Shape {
     }
 
     public double perimeter(){
-        return 0;
+        return 0; // at this return never used another where so 0 or another sayı does not matter
     }
 
 

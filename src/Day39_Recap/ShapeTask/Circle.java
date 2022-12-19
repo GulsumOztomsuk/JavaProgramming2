@@ -25,8 +25,8 @@ public class Circle extends Shape{
         Circle.pi = pi;
     }
 
-    public Circle(String name, double radius) {
-        super(name);
+    public Circle(double radius) {
+        super("Circle");
        setRadius(radius);
     }
 
