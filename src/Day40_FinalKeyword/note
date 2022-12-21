@@ -22,3 +22,32 @@ Inheritance: Is A relation.
 protected access modifier: Alayws visible within the same package
 						   Visible outside the package in subclass ONLY
 Final Keyword: Unchangable
+
+
+my note;
+local variable=instance variable
+birthday,gender con not use final keyword because these varable can be changable
+
+ degeri degisebilir variable ler final keyword ü kullanırsa hata verir
+ bunu engellemel icin contructor olustururuz ya da static method olusturup
+ deger atarız
+
+ final static String name;
+
+     static{
+         name = "Batch 25";
+     }
+     OR
+
+   final String birthDay;
+    public FinalVariable(String birthDay) {
+           this.birthDay = birthDay;
+       }
+
+       İNSTANCE VARİABLE , LOCAL VARİABLE, STATİC VARİABLE,CHANGABLE
+        VARİABLE ARE NOT FİNAL
+
+final keyword kullanılırsa bir metod da o metod override olmaz
+
+Class final keyword kullanıyorsa class icindeki method un kullanmasına
+gerek yok
