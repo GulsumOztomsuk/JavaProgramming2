@@ -17,14 +17,6 @@ public class Circle extends Shape{
         this.radius = radius;
     }
 
-    public static double getPi() {
-        return pi;
-    }
-
-    public static void setPi(double pi) {
-        Circle.pi = pi;
-    }
-
     public Circle(double radius) {
         super("Circle");
        setRadius(radius);
