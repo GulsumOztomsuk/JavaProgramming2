@@ -1,7 +1,8 @@
 fields==by the instance variables
 Encapculation: data hiding
                give private acces modofiers to fields
-               generate public getter/setter to read/write the private fields
+               generate public getter/setter to read/write the private
+                fields
 
 using thge data:
 		reading the data
@@ -13,24 +14,28 @@ Inheritance: Is A relation.
 
 			class A  extends Class B
 
-			child class (sub): inherits the variables and methods (Visible to the child class) from parent class (super)
+			child class (sub): inherits the variables and methods
+			(Visible to the child class) from parent class (super)
 
-			parent class (super): can not inherit anything from child (sub class)
+			parent class (super): can not inherit anything from child
+			 (sub class)
 
 
 
 protected access modifier: Alayws visible within the same package
-						   Visible outside the package in subclass ONLY
+						   Visible outside the package in subclass
+						    ONLY
 Final Keyword: Unchangable
 
 
 my note;
 local variable=instance variable
-birthday,gender con not use final keyword because these varable can be changable
+birthday,gender con not use final keyword because these varable can
+be changable
 
  degeri degisebilir variable ler final keyword ü kullanırsa hata verir
- bunu engellemel icin contructor olustururuz ya da static method olusturup
- deger atarız
+ bunu engellemel icin contructor olustururuz ya da static method
+ olusturup deger atarız
 
  final static String name;
 
