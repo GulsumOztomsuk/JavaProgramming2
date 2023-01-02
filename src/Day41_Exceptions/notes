@@ -40,6 +40,20 @@ Exceptions: unexpected and unwanted events
           exceptions
           try{
           exception code
+
           }catch(Exception Class e){
+
           e.printStackTrace();
           }
+
+          Multi-catch block: parent exception type can not be placed before the child exception type
+
+          			finally block: always gets executed regardless of the exception is being handled or not handled
+
+          							to stop the execution of the finally block: Syste.exit(0)
+
+
+          Interview Question:
+
+          		final vs   finally vs finalize
+          		(keyword)  (block)     (method)
