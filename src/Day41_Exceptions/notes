@@ -1,0 +1,45 @@
+
+Access Modifiers:
+		public > protected > default > private
+
+
+Final Keyword: unchangable
+
+		Variables: can not be reassigned
+
+		Methods: can not be overridden
+
+		Classes: can not be inherited (can not be parent)
+
+
+Exceptions Topic:
+		1. Unchecked vs Checked
+		2. try & catch blocks
+		3. Multi-catch block
+		4. finally block
+
+
+OutOfMemoryError: heap memory is full
+
+my not:
+exceptions catch blockda best solution parent exception ı kullanmak olur
+yani run time exception ama catch block da throwable never use because
+throwable only exception parent ı degil error parent ı da aynı zamanda
+
+
+Exceptions: unexpected and unwanted events
+          unchecked(unexpected):occurs during the run time
+          all the RunTimeExpections are unchecked exceptions
+
+          checked(unwanted):occurs during the compile time
+          all the exceptions that are not RunTimeExceptions are checked
+          exception
+
+   Exception handlings:
+          1.Try & Catch blocks: used for handling checked and unchecked
+          exceptions
+          try{
+          exception code
+          }catch(Exception Class e){
+          e.printStackTrace();
+          }
